@@ -22,7 +22,7 @@ export default function useFetch(url) {
           throw new Error("Server Error Has Occurred (500)");
         } else if (!response.ok) throw new Error("Unable to reach server");
         const data = await response.json();
-        setData(Object.keys(data.message).splice(1, 25));
+        setData(Object.keys(data.message));
         setIsPending(false);
         setError(null);
       } catch (error) {

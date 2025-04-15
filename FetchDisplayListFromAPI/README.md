@@ -87,6 +87,8 @@ dog-breed-explorer
 - Clean, responsive UI with CSS Modules
 
 - Organized code with reusable components and a custom hook
+- A "Load More" feature is included to progressively reveal more breeds, improving performance and usability for mobile and desktop users.
+- Clean UI with hover effects and modular, responsive layout.
 
 ## Author
 

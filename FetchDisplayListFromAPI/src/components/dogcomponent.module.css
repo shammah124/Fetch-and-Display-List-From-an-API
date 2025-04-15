@@ -1,8 +1,26 @@
-/* Styling the dog component for .dog and .loading class */
 .dog {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .loading {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.loadMoreBtn {
+  margin-top: 2rem;
+  padding: 0.7rem 1.5rem;
   font-size: 1rem;
-  font-weight: bolder;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.loadMoreBtn:hover {
+  background-color: darkred;
 }
