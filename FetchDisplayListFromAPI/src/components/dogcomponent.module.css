@@ -1,0 +1,8 @@
+/* Styling the dog component for .dog and .loading class */
+.dog {
+  padding: 2rem;
+}
+.loading {
+  font-size: 1rem;
+  font-weight: bolder;
+}

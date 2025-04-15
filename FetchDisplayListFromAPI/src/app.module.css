@@ -1,0 +1,29 @@
+/* General styling which when not changed will affect children components */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Styling the app component */
+.app {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+/* Styling the app title */
+.app h1 {
+  text-align: center;
+  color: #f87171;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,56 @@
+/* Styling the dogLists class */
+.dogLists {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+/* Styling the dogcontainer class */
+.dogContainer {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 1200px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling the li element */
+.dogContainer li {
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+  color: #374151;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Hover effect on the li element */
+.dogContainer li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border-color: #f59e0b;
+  background-color: #fffbea;
+}
+
+/* Animation for the li element */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dogContainer li {
+  animation: fadeIn 0.3s ease forwards;
+}
